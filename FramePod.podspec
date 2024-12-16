@@ -1,15 +1,15 @@
-Pod::Spec.new do |spec|
-  spec.name                   = 'FramePod'
-  spec.version                = '1.0.0'
-  spec.summary                = 'DecPods creation for iOS'
-  
-  spec.homepage               = 'https://github.com/SalimMob/FramePod'
-  spec.author                 = { 'IDWise' => 'maalouf.salim@gmail.com' }
-  spec.source                 = { :git => 'https://github.com/SalimMob/FramePod.git', :tag => spec.version.to_s }
+Pod::Spec.new do |s|
+s.name             = 'FramePod'  
+s.version          = '0.0.1'  
+s.summary          = 'DecPods creation for iOS' 
 
-  spec.ios.deployment_target  = '13.0'
-  spec.static_framework       = true
-  spec.swift_version          = '6.0'
+s.homepage         = 'https://github.com/SalimMob/FramePod'
+s.license          = { :type => 'MIT', :file => 'LICENSE' }
+s.author           = { 'username' => 'maalouf.salim@gmail.com' }
+s.source           = { :git => 'https://github.com/SalimMob/FramePod.git', :tag => s.version.to_s }
 
-  spec.source_files = 'FramePod/*'
-  end
+s.ios.deployment_target = '13.0'
+s.static_framework       = true
+s.swift_version          = '6.0'
+s.source_files = 'FramePod/*'
+end
